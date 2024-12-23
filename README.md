@@ -64,8 +64,8 @@ Evaluated models using metrics such as:
 | Technique               | Accuracy | Recall  |
 | :---------------------: | :------: | :-----: |
 | Random Undersampling    | 0.95767  | 0.91209 |
-| NearMiss Undersampling  | 0.95767  | 0.91209 |
-| SMOTE Undersampling     | 0.95767  | 0.91209 |
+| NearMiss Undersampling  | 0.85185  | 0.92308 |
+| SMOTE Undersampling     | 0.97807  | 0.87273 |
 
 ---
 
