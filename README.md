@@ -42,8 +42,7 @@ The project uses the [Kaggle Credit Card Fraud Detection Dataset](https://www.ka
 - **Over-Sampling**: Used SMOTE (Synthetic Minority Oversampling Technique) to increase the minority class size.
 
 ### 3. Model Implementation
-- Built a pipeline with SMOTE and logistic regression.
-- Used `GridSearchCV` for hyperparameter tuning.
+- Built a pipeline with NearMiss / SMOTE and logistic regression.
 
 ### 4. Evaluation
 Evaluated models using metrics such as:
@@ -61,6 +60,12 @@ Evaluated models using metrics such as:
   - **Positive Correlations**: `V2`, `V4`, `V11`, and `V19` indicate higher fraud likelihood at higher values.
 
 - Final model performance achieved balanced metrics across all evaluation criteria.
+
+| Technique               | Accuracy | Recall  |
+| :---------------------: | :------: | :-----: |
+| Random Undersampling    | 0.95767  | 0.91209 |
+| NearMiss Undersampling  | 0.95767  | 0.91209 |
+| SMOTE Undersampling     | 0.95767  | 0.91209 |
 
 ---
 
