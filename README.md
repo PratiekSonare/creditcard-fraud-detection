@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection Pipeline
+# 💳 Credit Card Fraud Detection Pipeline 🏦
 
 ## Overview
 Credit card fraud detection is crucial for preventing financial losses and ensuring customers are not charged for unauthorized transactions. This project aims to accurately identify fraudulent transactions in real-time while minimizing false positives. 
