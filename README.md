@@ -73,3 +73,4 @@ Evaluated models using metrics such as:
 1. Clone the repository:
    ```bash
    git clone https://github.com/PratiekSonare/CreditCardFraudDetection.git
+2. Run the ccfd-final.ipynb notebook.
